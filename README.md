@@ -10,11 +10,11 @@ A Flask-based mini stock trading web application with user authentication, MySQL
 
   📊 Portfolio View with:
 
-       Net quantity
+    Net quantity
 
-       Current price
+    Current price
 
-  Profit/Loss per stock
+    Profit/Loss per stock
 
   🧾 Transaction History table
   
@@ -23,3 +23,21 @@ A Flask-based mini stock trading web application with user authentication, MySQL
   🗄️ MySQL database integration
 
   📉 Live data fetched using yFinance
+
+
+
+
+🧪 How to Use
+
+    Create an account
+    
+    Log in using UserID + Password
+    
+    Enter a stock symbol (AAPL, TSLA, etc.)
+    
+    Choose Buy or Sell
+    
+    Check your updated Portfolio
+    
+    Scroll down to see Transaction History
+
