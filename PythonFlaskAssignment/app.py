@@ -10,7 +10,7 @@ app.secret_key = 'supersecretkey'
 # MySQL Connection
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Harsha@appui10'
+app.config['MYSQL_PASSWORD'] = '***********'#Your Sql Pwd
 app.config['MYSQL_DB'] = 'stock_demo'
 
 mysql = MySQL(app)
@@ -115,7 +115,7 @@ def dashboard():
         quantity = net_qty
         portfolio[sym]['profit_loss'] = (current_price - buy_price) * quantity
 
-        # ---------------- Fetch All Transactions ----------------
+    # ---------------- Fetch All Transactions ----------------
     cursor = mysql.connection.cursor()
     cursor.execute("""
         SELECT stock_symbol, type, quantity, price, date
@@ -139,3 +139,4 @@ def dashboard():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
