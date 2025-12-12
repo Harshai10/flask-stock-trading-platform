@@ -25,7 +25,7 @@ A Flask-based mini stock trading web application with user authentication, MySQL
   📉 Live data fetched using yFinance
 
 
-
+<br>
 
 🧪 How to Use
 
