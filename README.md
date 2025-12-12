@@ -27,7 +27,7 @@ A Flask-based mini stock trading web application with user authentication, MySQL
 
 <hr>
 
-### 🧪 How to Use
+## 🧪 How to Use
 
     Create an account
     
@@ -40,4 +40,19 @@ A Flask-based mini stock trading web application with user authentication, MySQL
     Check your updated Portfolio
     
     Scroll down to see Transaction History
+
+<hr>
+
+Login Page
+
+<img width="1899" height="854" alt="Screenshot 2025-12-11 224449" src="https://github.com/user-attachments/assets/be360719-a2e3-45e7-9bf8-2ef08a352197" />
+
+Signup Page
+
+<img width="1914" height="863" alt="Screenshot 2025-12-11 224502" src="https://github.com/user-attachments/assets/8d5d0793-70d3-4e66-8ca9-744099a3c256" />
+
+Dashboard Page
+
+<img width="1893" height="861" alt="Screenshot 2025-12-11 224528" src="https://github.com/user-attachments/assets/69db1dbe-b65f-4196-9d3e-29c4f736457d" />
+
 
