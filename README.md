@@ -27,7 +27,7 @@ A Flask-based mini stock trading web application with user authentication, MySQL
 
 <hr>
 
-🧪 How to Use
+### 🧪 How to Use
 
     Create an account
     
